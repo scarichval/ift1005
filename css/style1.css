@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+
+table {
+	width: 100px;
+	border-collapse: collapse;
+}
+
+header {
+	background-color: cornflowerblue;
+	padding: 10px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+li a:hover:not(.active) {
+	background-color: #555;
+	color: white; 
+}
+
+nav li {
+	display: inline;
+	
+}
+
+ul {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 40px;
+}
